@@ -8,7 +8,7 @@ public class Main {
         int b= sc.nextInt();
         int c= sc.nextInt();
         int max,min,middle;
-        if (a>b>c||a>c>b){
+        if ((a>b)&&(a>c)){
             max=a;
             if (b>c){
                 middle=b;
@@ -17,7 +17,7 @@ public class Main {
                 middle=c;
                 min=b;
             }
-        }else if(b>a>c||b>a>b){
+        }else if((b>a)&&(b>c)){
             max=b;
             if (a>c){
                 middle=a;
@@ -36,5 +36,6 @@ public class Main {
                 min=a;
             }
         }
+    System.out.print(middle);
     }
 }
