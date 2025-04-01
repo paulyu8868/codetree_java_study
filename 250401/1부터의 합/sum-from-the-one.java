@@ -7,7 +7,7 @@ public class Main {
         int N = Integer.parseInt(sc.nextLine());
         int sum = 0;
         int i=1;
-        while(sum<=N){
+        while(sum<N){
             sum+=i;
             i++;
         }
