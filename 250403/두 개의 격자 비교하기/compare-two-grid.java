@@ -9,17 +9,17 @@ public class Main {
         int[][] arr1 = new int[N][M];
         int[][] arr2 = new int[N][M];
         for (int i=0;i<N;i++){
-            for (int j=0;j<N;j++){
+            for (int j=0;j<M;j++){
                 arr1[i][j]=sc.nextInt();
             }
         }
         for (int i=0;i<N;i++){
-            for (int j=0;j<N;j++){
+            for (int j=0;j<M;j++){
                 arr2[i][j]=sc.nextInt();
             }
         }
         for (int i=0;i<N;i++){
-            for (int j=0;j<N;j++){
+            for (int j=0;j<M;j++){
                 System.out.print((arr1[i][j]==arr2[i][j])?0:1);
                 System.out.print(" ");
             }
